@@ -19,3 +19,11 @@ spring:
           uri: lb://EAD-NOTIFICATION-SERVICE
           predicates:
             - Path=/ead-notification/**
+        - id: payment-service
+          uri: lb://EAD-PAYMENT-SERVICE
+          predicates:
+            - Path=/ead-payment/**
+        - id: ead-notification-service-hex
+          uri: lb://EAD-NOTIFICATION-SERVICE-HEX
+          predicates:
+            - Path=/ead-notification-hex/**
