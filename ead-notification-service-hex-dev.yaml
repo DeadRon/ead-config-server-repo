@@ -23,7 +23,10 @@ spring:
     ansi:
       enabled: Always
   rabbitmq:
-    addresses: amqps://oqaevxaf:6KU7WK_x0k2Et0CwgwlOOdf95NAR4uPG@woodpecker.rmq.cloudamqp.com/oqaevxaf
+    host: localhost #com essa configuração minha aplicação consegui se conectar com rabbit localmente
+    port: 5672
+    username: rabbitmq
+    password: rabbitmq
 
 
 logging:
@@ -51,3 +54,4 @@ management:
         include:
           - refresh
           - health
+          
