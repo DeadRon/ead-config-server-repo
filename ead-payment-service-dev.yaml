@@ -47,7 +47,9 @@ ead:
       paymentCommandQueue:
         name: ead.paymentcommand.ms.payment
     key:
-      paymentCommandKey: ms.payment    
+      paymentCommandKey: ms.payment
+  stripe:
+    secretKey: '{cipher}f44538f443a2aba2af693c52b72967b205bb099f3f7f233227a71c736f1eb97649ee12b75df41ffcdf924347f7aebd978f79464e5dde4561e37598190b5e4452e6d317de1782414c79628bb16771fc20a4ff88d2ea2508ae4fd804632931d3d6c692197adf9fdb5fce87a17c8d807265f56ea3f3d8fbbc55a6c70f808eb42bbd'        
 
 #Actuator
 management:
