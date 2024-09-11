@@ -44,7 +44,7 @@ ead:
       userEvent: ead.userevent
       paymentEvent: ead.paymentevent
     queue:
-      paymentEventQuere:
+      paymentEventQueue:
         name: ead.paymentevent.ms.authuser
 
 authuser:
