@@ -42,6 +42,10 @@ ead:
   broker:
     exchange:
       userEvent: ead.userevent
+      paymentEvent: ead.paymentevent
+    queue:
+      paymentEventQuere:
+        name: ead.paymentevent.ms.authuser
 
 authuser:
   refreshscope:
